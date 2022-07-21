@@ -1,0 +1,91 @@
+ /**********************************************************************************************************************
+ * Copyright 2022, Inesonic, LLC
+ *
+ * GNU Public License, Repository 3:
+ *   This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public
+ *   License as published by the Free Software Foundation, either repository 3 of the License, or (at your option) any
+ *   later repository.
+ *
+ *   This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied
+ *   warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+ *   details.
+ *
+ *   You should have received a copy of the GNU General Public License along with this program.  If not, see
+ *   <https://www.gnu.org/licenses/>.
+ ***********************************************************************************************************************
+ */
+
+.inesonic-repository-tracker-header {}
+.inesonic-repository-tracker-section {}
+.inesonic-repository-tracker-section-title {}
+.inesonic-repository-tracker-subheader {}
+
+.inesonic-repository-tracker-repository-table-area {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.inesonic-repository-tracker-repository-table {
+    width: 100%;
+}
+
+.inesonic-repository-tracker-repository-table-header {
+    font-weight: bold;
+}
+
+.inesonic-repository-tracker-repository-table-header-row {}
+.inesonic-repository-tracker-repository-table-header-package-name {}
+.inesonic-repository-tracker-repository-table-header-projects {}
+.inesonic-repository-tracker-repository-table-header-repository-url {}
+.inesonic-repository-tracker-repository-table-header-description {}
+
+.inesonic-repository-tracker-repository-table-body {}
+.inesonic-repository-tracker-repository-table-row {}
+
+.inesonic-repository-tracker-repository-table-package-name-data {
+    width: 5%;
+}
+
+.inesonic-repository-tracker-repository-table-package-name-input {
+    width: 100%;
+}
+
+.inesonic-repository-tracker-repository-table-projects-data {
+    width: 10%;
+}
+
+.inesonic-repository-tracker-repository-table-projects-input {
+    width: 100%;
+}
+
+.inesonic-repository-tracker-repository-table-repository-url-data {
+    width: 25%;
+}
+
+.inesonic-repository-tracker-repository-url-input {
+    width: 100%
+}
+
+.inesonic-repository-tracker-repository-table-description-data {
+    width: 60%;
+}
+
+.inesonic-repository-tracker-description-input {
+    width: 100%;
+}
+
+.inesonic-repository-tracker-button-area {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.inesonic-bad-entry {
+    border-color: red !important;
+}
+
+.inesonic-disable-click {
+    pointer-events: none;
+}

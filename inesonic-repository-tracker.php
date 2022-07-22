@@ -184,7 +184,11 @@ class InesonicRepositoryTracker {
                                    esc_html($package->package_name()) .
                                  '</td>' .
                                  '<td class="inesonic-repository-tracker-repository-url">' .
-                                   esc_html($package->repository_url()) .
+                                   '<a href="' . $package->repository_url() . '" '.
+                                      'class="inesonic-repository-tracker-link"' .
+                                   '>' .
+                                     esc_html($package->repository_url()) .
+                                   '</a>' .
                                  '</td>' .
                                  '<td class="inesonic-repository-tracker-description">' .
                                    esc_html($package->description()) .
